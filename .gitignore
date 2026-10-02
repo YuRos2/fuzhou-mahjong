@@ -1,0 +1,14 @@
+# Godot 4+
+.godot/
+/android/
+
+# Godot 导出配置（含签名信息，不入库）
+export_presets.cfg
+*.translation
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
