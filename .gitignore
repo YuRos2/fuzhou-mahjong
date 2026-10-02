@@ -12,3 +12,16 @@ Thumbs.db
 desktop.ini
 *.swp
 *~
+
+# --- 过程文件防护 ---------------------------------------------------
+# 调试截图 / 临时脚本 / 验证证据 / 备份等过程文件统一存放在：
+#   C:\Users\BG5VT\pi-workspace
+# 不应出现在本仓库中。
+*.bak
+*.orig
+*.rej
+*_tmp.*
+/tmp/
+/.tmp/
+/screen_*.png
+/screenshot_*.png
