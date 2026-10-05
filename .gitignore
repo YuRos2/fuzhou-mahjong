@@ -25,3 +25,6 @@ desktop.ini
 /.tmp/
 /screen_*.png
 /screenshot_*.png
+
+# pi 项目级包的 npm 依赖树（可重装，27M）
+.pi/npm/
